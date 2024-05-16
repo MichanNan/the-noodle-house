@@ -39,7 +39,7 @@ const Billboard = () => {
         height={80}
         alt="noodle"
         className="absolute bottom-[90px] -left-20 rotate-[15deg] opacity-70"
-      />*/}
+  />*/}
       <Image
         src="/logo.png"
         width={300}

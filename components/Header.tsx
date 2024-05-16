@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full flex flex-col justify-evenly md:flex-row mt-5 md:mt-10">
+    <div className="w-full flex flex-col justify-evenly items-center md:flex-row mt-5 md:mt-10">
       <div className="text-2xl md:text-3xl  text-green-800 font-bold">
         The Noodle House
       </div>
