@@ -3,54 +3,34 @@ import React from "react";
 
 const Billboard = () => {
   return (
-    <section id="billboard" className="relative flex flex-col items-center">
-      {/* <Image
-        src="/一碗面.png"
-        width={100}
-        height={100}
-        alt="noodle"
-        className="absolute top-5 -left-20 rotate-[10deg] opacity-70"
-      />
-      <Image
-        src="/小麦.png"
-        width={50}
-        height={50}
-        alt="noodle"
-        className="absolute bottom-5 -left-2 rotate-12 opacity-70"
-      />
-      <Image
-        src="/小麦.png"
-        width={50}
-        height={50}
-        alt="noodle"
-        className="absolute bottom-6 -left-5 rotate-[-10deg] opacity-70"
-      />
-
-      <Image
-        src="/洋葱.png"
-        width={120}
-        height={120}
-        alt="noodle"
-        className="absolute top-[200px] -right-[150px] rotate-20 opacity-70"
-      />
-      <Image
-        src="/胡萝卜.png"
-        width={80}
-        height={80}
-        alt="noodle"
-        className="absolute bottom-[90px] -left-20 rotate-[15deg] opacity-70"
-  />*/}
-      <Image
-        src="/logo.png"
-        width={300}
-        height={300}
-        alt="logo"
-        className="animate-spin-slow mt-10"
-      />
-      <p className="text-md md:ext-xl text-green-800 mt-6 m-4 ">
-        Bald können wir Ihnen köstliche chinesische Nudeln anbieten. Wir freuen
-        uns auf Ihren Besuch.
-      </p>
+    <section id="billboard" className="relative mt-[100px]  z-10 scroll-mt-16">
+      <div className="flex flex-col items-center justify-start w-3/4 mx-auto">
+        <p className="font-bold text-2xl self-start text-green-800">
+          Our Story
+        </p>
+        <div className="flex flex-col justify-center xl:flex-row xl:justify-between  items-center xl:gap-12 xl:mt-10">
+          <Image
+            src="/logo.png"
+            width={400}
+            height={400}
+            alt="logo"
+            className="mt-10"
+          />
+          <p className="md:text-xl text-green-800 mt-6 m-4 text-left">
+            Nudeln haben in China eine lange Geschichte, und jede Region hat
+            ihre eigenen charakteristischen Nudelgerichte. Unser Restaurant
+            konzentriert sich darauf, die beliebtesten, bissfesten Nudeln aus
+            dem Norden Chinas anzubieten, ergänzt durch eine Vielzahl von
+            Toppings und eine köstliche Brühe, die stundenlang aus Knochen
+            gekocht wird. Unsere Nudeln sind aromatisch und lecker, ohne den
+            Zusatz von Glutamat, sondern nur mit den natürlichsten Gewürzen
+            gewürzt, um den authentischen Geschmack zu bewahren. Außerdem bieten
+            wir eine Auswahl an Pilzbrühe für Vegetarier an, um unterschiedliche
+            Geschmacksrichtungen zu befriedigen. Wir laden Sie herzlich ein, die
+            echten chinesischen Nudeln zu probieren.
+          </p>
+        </div>
+      </div>
     </section>
   );
 };
