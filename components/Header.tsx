@@ -15,7 +15,11 @@ const Header = () => {
       </div>
       <div className="flex justify-center text-lg md:text-xl gap-5 items-center text-green-800 font-bold">
         {links.map((link) => (
-          <Link href={`#${link.link}`} className="hover:text-green-600">
+          <Link
+            key={link.name}
+            href={`#${link.link}`}
+            className="hover:text-green-600"
+          >
             {link.name}
           </Link>
         ))}
