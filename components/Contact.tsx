@@ -13,6 +13,7 @@ const Contact = () => {
             <p>Kontakt:</p>
             <p>Iffland Str. 92</p>
             <p>22087 Hamburg</p>
+            <p>Tel:+49 40 22759255</p>
             <p>Email:Info@the-noodle-house.de</p>
             <p className="mt-4">Open:</p>
             <p>Mon.-Sonn. 11:30-15:00, 17:00-21:00</p>
