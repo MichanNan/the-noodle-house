@@ -7,14 +7,14 @@ const Header = () => {
     { name: "Our Special", link: "special" },
     { name: "Menu", link: "menu" },
     { name: "Events", link: "events" },
-    { name: "Kontakt", link: "contact" },
+    { name: "Contact", link: "contact" },
   ];
   return (
     <div className="fixed top-0 w-full flex flex-col justify-evenly items-center md:flex-row py-3 bg-white opacity-[80%] z-50">
       <div className="text-2xl md:text-3xl  text-green-800 font-bold">
         The Noodle House
       </div>
-      <div className="flex justify-center text-lg md:text-xl gap-5 items-center text-green-800 font-bold">
+      <div className="flex justify-center text-lg md:text-xl gap-2 md:gap-6 flex-wrap items-center text-green-800 font-bold">
         {links.map((link) => (
           <Link
             key={link.name}

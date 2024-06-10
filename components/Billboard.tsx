@@ -3,7 +3,10 @@ import React from "react";
 
 const Billboard = () => {
   return (
-    <section id="billboard" className="relative mt-[100px]  z-10 scroll-mt-16">
+    <section
+      id="billboard"
+      className="relative mt-[100px]  z-10 scroll-mt-20 md:scroll-mt-16"
+    >
       <div className="flex flex-col items-center justify-start w-3/4 mx-auto">
         <p className="font-bold text-2xl self-start text-green-800">
           Our Story

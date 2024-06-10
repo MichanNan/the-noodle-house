@@ -3,7 +3,10 @@ import React from "react";
 
 const Spacial = () => {
   return (
-    <section id="special" className="relative mt-[100px]  z-10 scroll-mt-16">
+    <section
+      id="special"
+      className="relative mt-6 xl:mt-[80px]  z-10 scroll-mt-20 md:scroll-mt-16"
+    >
       <div className="flex flex-col items-center justify-start w-3/4 mx-auto">
         <p className="font-bold text-2xl self-start text-green-800">
           Our Specialty
@@ -24,8 +27,8 @@ const Spacial = () => {
           </p>{" "}
           <Image
             src="/daoxiao.gif"
-            width={500}
-            height={500}
+            width={450}
+            height={450}
             alt="logo"
             className="mt-10"
           />
