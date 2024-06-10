@@ -23,11 +23,10 @@ const Billboard = () => {
             dem Norden Chinas anzubieten, ergänzt durch eine Vielzahl von
             Toppings und eine köstliche Brühe, die stundenlang aus Knochen
             gekocht wird. Unsere Nudeln sind aromatisch und lecker, ohne den
-            Zusatz von Glutamat, sondern nur mit den natürlichsten Gewürzen
-            gewürzt, um den authentischen Geschmack zu bewahren. Außerdem bieten
-            wir eine Auswahl an Pilzbrühe für Vegetarier an, um unterschiedliche
-            Geschmacksrichtungen zu befriedigen. Wir laden Sie herzlich ein, die
-            echten chinesischen Nudeln zu probieren.
+            Zusatz von Glutamat. Außerdem bieten wir eine Auswahl an Pilzbrühe
+            für Vegetarier an, um unterschiedliche Geschmacksrichtungen zu
+            befriedigen. Wir laden Sie herzlich ein, die echten chinesischen
+            Nudeln zu probieren.
           </p>
         </div>
       </div>
