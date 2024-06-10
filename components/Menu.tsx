@@ -11,7 +11,7 @@ const Menu = () => {
     >
       <div className="flex flex-col items-center justify-start mx-auto ">
         <p className="font-bold text-2xl self-start text-green-800 mb-2 xl:mb-6">
-          Menü
+          Menu
         </p>
         <div className="flex gap-2 flex-wrap">
           <Image

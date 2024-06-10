@@ -3,11 +3,11 @@ import React from "react";
 
 const Spacial = () => {
   return (
-    <section id="billboard" className="relative mt-[100px]  z-10 scroll-mt-16">
+    <section id="special" className="relative mt-[100px]  z-10 scroll-mt-16">
       <div className="flex flex-col items-center justify-start w-3/4 mx-auto">
         <p className="font-bold text-2xl self-start text-green-800">
           Our Specialty
-        </p>{" "}
+        </p>
         <div className="flex flex-col md:flex-row gap-10 items-center mt-5">
           <Image src="/刀削面.png" width={200} height={200} alt="dao-xiao" />
           <p className="text-3xl font-bold text-green-800">Dao-Xiao Nudeln</p>

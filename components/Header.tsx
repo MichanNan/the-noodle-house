@@ -4,7 +4,8 @@ import React from "react";
 const Header = () => {
   const links = [
     { name: "Our Story", link: "billboard" },
-    { name: "Menü", link: "menu" },
+    { name: "Our Special", link: "special" },
+    { name: "Menu", link: "menu" },
     { name: "Events", link: "events" },
     { name: "Kontakt", link: "contact" },
   ];
