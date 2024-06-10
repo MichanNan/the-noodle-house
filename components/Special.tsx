@@ -16,21 +16,16 @@ const Spacial = () => {
           <p className="md:text-xl text-green-800 mt-6 m-4 text-left">
             Dao-Xiao Nudeln, auch bekannt als handgeschabte, stammen aus der
             chinesischen Küche, insbesondere aus der Shanxi-Provinz. Der Name
-            "Dao-Xiao" bedeutet wörtlich "mit dem Messer geschabte" Nudeln.
-            Diese Nudeln sind besonders für ihre einzigartige Herstellungsweise
-            und ihren kräftigen Geschmack bekannt. Dadurch entstehen
-            gleichmäßige, leicht gekräuselte Nudeln mit einer festen und dennoch
-            zarten Textur. Dao-Xiao noodles, also known as hand-shaved,
-            originate from Chinese cuisine, particularly from the Shanxi
-            Province. The name "Dao-Xiao" literally means "knife-shaved"
-            noodles. These noodles are renowned for their unique method of
-            preparation and robust flavor. This results in uniform, lightly
-            curled noodles with a firm yet delicate texture.
+            &quot;Dao-Xiao&quot; bedeutet wörtlich &quot;mit dem Messer
+            geschabte &quot; Nudeln. Diese Nudeln sind besonders für ihre
+            einzigartige Herstellungsweise und ihren kräftigen Geschmack
+            bekannt. Dadurch entstehen gleichmäßige, leicht gekräuselte Nudeln
+            mit einer festen und dennoch zarten Textur.
           </p>{" "}
           <Image
-            src="/刀削面海报.png"
-            width={400}
-            height={400}
+            src="/daoxiao.gif"
+            width={500}
+            height={500}
             alt="logo"
             className="mt-10"
           />
