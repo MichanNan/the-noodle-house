@@ -2,6 +2,7 @@ import Billboard from "@/components/Billboard";
 import Contact from "@/components/Contact";
 import Events from "@/components/Event";
 import Header from "@/components/Header";
+import Impressum from "@/components/Impressum";
 import Menu from "@/components/Menu";
 import Special from "@/components/Special";
 import Image from "next/image";
@@ -15,6 +16,7 @@ export default function Home() {
       <Menu />
       <Events />
       <Contact />
+      <Impressum />
     </main>
   );
 }
