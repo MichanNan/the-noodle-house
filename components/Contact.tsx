@@ -16,8 +16,10 @@ const Contact = () => {
             <p>Tel:+49 40 22759255</p>
             <p>Email:Info@the-noodle-house.de</p>
             <p className="mt-4">Open:</p>
-            <p>Mo-Fr 12:30-15:00, 17:00-21:00</p>
-            <p>Sa-So 12:30-21:00</p>
+            <p>Di-Mi 17:00-21:00</p>
+            <p>Do-Fr 12:00-15:00 17:00-21:00</p>
+            <p>Sa-So 12:00-21:00</p>
+            <p>Mo geschlossen</p>
           </div>
           <div className="flex flex-col">
             <iframe
