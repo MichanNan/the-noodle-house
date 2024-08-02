@@ -32,8 +32,8 @@ const PopupModal = () => {
             NOODLES
           </h2>
           <div className="text-center text-xl">
-            Diesen kannst du am Ende des Bestellvorgangs unter "Rabattcode
-            eingeben" einlösen
+            Diesen kannst du am Ende des Bestellvorgangs unter &quot;Rabattcode
+            eingeben&quot; einlösen
           </div>
           <div className="flex items-center justify-center h-screen">
             <Link
