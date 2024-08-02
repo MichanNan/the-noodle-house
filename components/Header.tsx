@@ -24,6 +24,12 @@ const Header = () => {
             {link.name}
           </Link>
         ))}
+        <Link
+          href="https://thenoodlehouse.online-karte.com/"
+          className="bg-green-800 text-white p-2 rounded-xl  hover:bg-green-500"
+        >
+          Bestellen Online
+        </Link>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const Spacial = () => {
   return (
     <section
       id="special"
-      className="relative mt-6 xl:mt-[80px]  z-10 scroll-mt-20 md:scroll-mt-16"
+      className="relative mt-6 xl:mt-[80px]  z-10 scroll-mt-[140px] md:scroll-mt-16"
     >
       <div className="flex flex-col items-center justify-start w-3/4 mx-auto">
         <p className="font-bold text-2xl self-start text-green-800">
