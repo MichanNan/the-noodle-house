@@ -27,7 +27,7 @@ const ImpressumPage = () => {
 
       <h2>Kontakt</h2>
       <p>
-        Telefon: +49 17647334032
+        Telefon: +49 40 22759255
         <br />
         E-Mail: info@the-noodle-house.de
       </p>
