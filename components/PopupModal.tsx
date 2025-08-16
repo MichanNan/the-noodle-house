@@ -20,7 +20,7 @@ const PopupModal = () => {
         overlayClassName="fixed inset-0 bg-black bg-opacity-50 z-40"
         contentLabel="Welcome Modal"
       >
-        <div className="p-[40px] relative bg-white rounded w-[1000px] h-[400px] flex flex-col justify-center font-blod tracking-widest gap-4">
+        <div className="p-[40px] relative bg-white rounded w-[1000px] h-[200px] flex flex-col justify-center font-blod tracking-widest gap-4">
           <button
             className="absolute top-2 right-2 text-black text-2xl"
             onClick={closeModal}
@@ -38,24 +38,24 @@ const PopupModal = () => {
             Diesen kannst du am Ende des Bestellvorgangs unter &quot;Rabattcode
             eingeben&quot; einlösen
           </div> */}
-          <div className="flex items-center justify-center h-screen">
-            {/* <Link
+          {/* <div className="flex items-center justify-center h-screen">
+             <Link
               href="https://thenoodlehouse.online-karte.com/"
               className="bg-green-800 text-white p-4 rounded-xl text-xl hover:bg-green-500 transition w-[250px] h-[50px] flex items-center justify-center"
             >
               Bestellen Online
-            </Link> */}
-          </div>
+            </Link> 
+          </div> */}
         </div>
       </Modal>
-      <button
+      {/* <button
         className="fixed bottom-8 right-8 bg-green-800 text-white p-4 rounded-full text-xl hover:bg-green-500 transition"
         onClick={() => {
           setModalIsOpen(true);
         }}
       >
         Gutschein sichern
-      </button>
+      </button> */}
     </div>
   );
 };
