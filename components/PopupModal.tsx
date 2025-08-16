@@ -27,21 +27,24 @@ const PopupModal = () => {
           >
             &times; {/* X  */}
           </button>
-          <h2 className="text-center text-2xl font-bold text-green-800">
-            ERHALTE 10€ RABATT AUF DEINE NÄCHSTEN 3 Bestellungen MIT CODE:
-            NOODLES
+          <h2 className="text-center text-2xl  text-green-800">
+            Zurzeit aktualisieren wir unser Bestellsystem.{" "}
+            <p className="font-bold">
+              Sie können Essen telefonisch bestellen unter 040 22759255.
+            </p>{" "}
+            Vielen Dank für Ihr Verständnis, wir freuen uns auf Ihren Anruf!
           </h2>
-          <div className="text-center text-xl">
+          {/* <div className="text-center text-xl">
             Diesen kannst du am Ende des Bestellvorgangs unter &quot;Rabattcode
             eingeben&quot; einlösen
-          </div>
+          </div> */}
           <div className="flex items-center justify-center h-screen">
-            <Link
+            {/* <Link
               href="https://thenoodlehouse.online-karte.com/"
               className="bg-green-800 text-white p-4 rounded-xl text-xl hover:bg-green-500 transition w-[250px] h-[50px] flex items-center justify-center"
             >
               Bestellen Online
-            </Link>
+            </Link> */}
           </div>
         </div>
       </Modal>
