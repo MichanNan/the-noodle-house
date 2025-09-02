@@ -44,7 +44,7 @@ const Billboard = () => {
               </div>{" "}
             </div>
             <Link
-              href="https://thenoodlehouse.online-karte.com/"
+              href="https://eat.allo.restaurant/restaurant/the-noodle-house"
               className="bg-green-800 text-white p-4 rounded-xl text-2xl hover:bg-green-500 transition"
             >
               Bestellen Online

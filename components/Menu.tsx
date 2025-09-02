@@ -15,14 +15,14 @@ const Menu = () => {
         </p>
         <div className="flex gap-2 flex-wrap">
           <Image
-            src="/1.png"
+            src="/菜单1.png"
             width={700}
             height={300}
             alt="logo"
             quality={100}
           />
           <Image
-            src="/2.png"
+            src="/菜单2.png"
             width={700}
             height={300}
             alt="logo"

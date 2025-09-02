@@ -25,7 +25,7 @@ const Header = () => {
           </Link>
         ))}
         <Link
-          href="https://thenoodlehouse.online-karte.com/"
+          href="https://eat.allo.restaurant/restaurant/the-noodle-house"
           className="bg-green-800 text-white p-2 rounded-xl  hover:bg-green-500"
         >
           Bestellen Online

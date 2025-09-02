@@ -27,35 +27,35 @@ const PopupModal = () => {
           >
             &times; {/* X  */}
           </button>
-          <h2 className="text-center text-2xl  text-green-800">
+          {/* <h2 className="text-center text-2xl  text-green-800">
             Zurzeit aktualisieren wir unser Bestellsystem.{" "}
             <p className="font-bold">
               Sie können Essen telefonisch bestellen unter 040 22759255.
             </p>{" "}
             Vielen Dank für Ihr Verständnis, wir freuen uns auf Ihren Anruf!
+          </h2> */}
+          <h2 className="text-center text-2xl font-bold">
+            ✨ Guten Appetit beginnt hier, bestellen Sie unkompliziert auf
+            unserer Website.
           </h2>
-          {/* <div className="text-center text-xl">
-            Diesen kannst du am Ende des Bestellvorgangs unter &quot;Rabattcode
-            eingeben&quot; einlösen
-          </div> */}
-          {/* <div className="flex items-center justify-center h-screen">
-             <Link
-              href="https://thenoodlehouse.online-karte.com/"
+          <div className="flex items-center justify-center h-screen">
+            <Link
+              href="https://eat.allo.restaurant/restaurant/the-noodle-house"
               className="bg-green-800 text-white p-4 rounded-xl text-xl hover:bg-green-500 transition w-[250px] h-[50px] flex items-center justify-center"
             >
               Bestellen Online
-            </Link> 
-          </div> */}
+            </Link>
+          </div>
         </div>
       </Modal>
-      {/* <button
+      <button
         className="fixed bottom-8 right-8 bg-green-800 text-white p-4 rounded-full text-xl hover:bg-green-500 transition"
         onClick={() => {
           setModalIsOpen(true);
         }}
       >
         Gutschein sichern
-      </button> */}
+      </button>
     </div>
   );
 };
