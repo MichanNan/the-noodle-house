@@ -14,8 +14,11 @@ const Events = () => {
           Events
         </p>
         <div className="flex gap-2 flex-wrap">
+          <p className="font-bold text-xl text-green-800 mb-2 xl:mb-6">
+            Genuss-Guide Hamburg Empfehlung
+          </p>
           <Image
-            src="/openEvent.png"
+            src="/hamburg.jpg"
             width={1500}
             height={300}
             alt="logo"
