@@ -48,14 +48,14 @@ const PopupModal = () => {
           </div>
         </div>
       </Modal>
-      <button
+      {/* <button
         className="fixed bottom-8 right-8 bg-green-800 text-white p-4 rounded-full text-xl hover:bg-green-500 transition"
         onClick={() => {
           setModalIsOpen(true);
         }}
       >
         Gutschein sichern
-      </button>
+      </button> */}
     </div>
   );
 };
